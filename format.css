@@ -1,0 +1,210 @@
+@charset "utf-8";
+/* CSS Document */
+div.container {
+    width: 100%;
+	position: relative;
+	min-height: 100%;	
+	background-color: #e6e6e6;
+}
+
+header, footer {
+    padding-top: 1em;
+	padding-bottom: 1em;
+	padding-left: 2em;
+    color: white;
+    /*background-color: black;*/
+    clear: left;
+    text-align: left;
+	
+    background: #0059b3; /* For browsers that do not support gradients */    
+    background: -webkit-linear-gradient(left top, #0059b3, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(bottom right, #0059b3, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(bottom right, #0059b3, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to bottom right, #0059b3, #80bfff); /* Standard syntax (must be last) */
+}
+
+#subTitle {
+	margin-left: 30px;
+}
+
+nav {
+	margin: 1%;
+	font-size: 125%;
+	font-family: Open Sans;
+	padding: 0.5em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+h4 {
+	font-size: 15px;
+	font-style: bold;
+	font-family: Open Sans;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+h3 {
+	font-size: 17px;
+	font-style: bold;
+	font-family: Open Sans;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+h2 {
+	font-size: 19px;
+	font-style: bold;
+	font-family: Open Sans;
+	margin-top: 2px;
+	margin-bottom: 2px;
+}
+
+p {
+	font-size: 15px;
+	font-style: normal;
+	font-family: Open Sans;
+	margin-top: 4px;
+	margin-bottom: 0px;
+}
+
+.lists {
+	font-size: 15px;
+	font-style: normal;
+	font-family: Open Sans;
+	margin-top: 1px;
+	margin-left: 5px;
+}
+
+#navLi {
+	padding: 0.5em;
+	margin-left: 14px;
+}
+
+article {
+    margin-left: 170px;
+	margin-right: 30%;
+    padding: 1em;
+    overflow: hidden;
+}
+
+/*two column lists on index.html*/
+#twoColumnWrapper {
+}
+
+#AoI {
+	float: left;
+}
+
+#languages {
+	float: right;
+	padding-right: 90px;
+}
+
+#text {
+	float: below;
+}
+
+#qual {
+	float: 0px;
+}
+
+#featureHeader {
+	margin-left: 29px;
+	margin-bottom: 5px;
+}
+
+#wrapper {
+	width: 60%;
+	height: auto;
+	padding: 10px;
+	border: 1px solid black;
+	clear: both;
+	overflow: hidden;
+}
+#leftColumn, #rightColumn {
+    float: left;
+    min-height: 150px;
+}
+#leftColumn {
+    width: 30%;
+}
+#rightColumn {
+	width: 60%;
+	margin-left: 10px;
+}
+
+#ascendIcon {
+	width: 80%;
+	padding-left: 20px;
+}
+
+#googlePlay {
+	margin-left: 29px;
+}
+
+aside {
+	float: left;
+    max-width: 180px;
+    margin: 0;
+    padding: 1em;
+	border:1px solid black;
+	margin-top: 10px;
+	margin-bottom: 50px;
+}
+
+#picture {
+    width: 100%;
+	margin-bottom: 10%;
+}
+
+#fieldTitle {
+	float: left;
+	width: 8em;
+	margin-right: 0.5em;
+}
+
+textarea {
+    resize: none;
+	width: 30em;
+	height: 15em;
+}
+
+#formInput {
+	width: 20em;
+}
+
+#buttonSubmit {
+	margin-right: 1em;
+}
+
+#buttonSubmit, #buttonReset {
+	width: 5em;
+}
+
+a.socialLinks {
+	margin-right: 10px;
+}
+
+/* unvisited link */
+	a:link {
+		color: blue;
+	}
+
+	/* visited link */
+	a:visited {
+		color: blue;
+	}
+
+	/* mouse over link */
+	a:hover {
+		color: yellow;
+	}
+
+	/* selected link */
+	a:active {
+		color: red;
+	}
